@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+body{
+  
+    background: rgb(25,140,123);
+    background: linear-gradient(69deg, rgba(25,140,123,1) 29%, rgba(12,135,215,1) 65%);
+    font-family: 'Alegreya Sans', sans-serif;
+    
+}

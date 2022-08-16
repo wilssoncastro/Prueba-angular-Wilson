@@ -1,0 +1,34 @@
+<div class="formulario">
+    <form class="form">
+
+        <h2>Formulario de registro</h2>
+        <p>Por favor llene los siguientes campos</p>
+
+        <div>
+            <input type="text" name="documento" [(ngModel)]="persona.Documento" placeholder="Numero de documento"
+                autofocus />
+        </div>
+        <div>
+            <input type="text" name="nombres" [(ngModel)]="persona.Nombres" placeholder="Ingrese su nombre">
+        </div>
+        <div>
+            <input type="text" name="apellidos" [(ngModel)]="persona.Apellidos" placeholder="Ingrese su apellido" />
+        </div>
+        <div>
+            <input type="text" name="telefono" [(ngModel)]="persona.Telefono" placeholder="Ingrese su telefono">
+        </div>
+        <div>
+            <input type="email" name="correo" [(ngModel)]="persona.Correo" placeholder="Ingrese su correo" />
+        </div>
+        <div>
+            <span><i class="fa-solid fa-location-dot"></i></span>
+            <input type="text" name="direccion" [(ngModel)]="persona.Direccion" placeholder="Ingrese su direccion">
+        </div>
+
+
+        <div>
+            <button class="btn" (click)="guardarPersona()">Guardar</button>
+        </div>
+    </form>
+
+</div>
